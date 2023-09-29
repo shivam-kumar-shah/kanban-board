@@ -10,7 +10,7 @@ const Home = (props: Props) => {
       <Header />
       <main className="flex flex-row h-full relative pt-20">
         <Nav />
-        <div className="pl-64 h-full bg-surface w-fit min-h-full">
+        <div className="pl-64 h-full bg-surface min-w-fit w-full min-h-full">
           <section className="p-6 flex flex-row gap-x-4 min-w-fit">
             <BoardSection />
             <BoardSection />

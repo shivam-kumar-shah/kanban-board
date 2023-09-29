@@ -7,7 +7,7 @@ type Props = {};
 
 const Nav = (props: Props) => {
   return (
-    <div className="w-64 h-full fixed bg-card-surface py-6 pr-6">
+    <div className="w-64 h-full fixed bg-card-surface py-6 pr-6 z-50">
       <div className="nav__heading uppercase font-bold text-font-secondary text-xs tracking-widest px-6 mb-5">
         All Boards (3)
       </div>
