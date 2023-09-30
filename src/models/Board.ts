@@ -1,6 +1,8 @@
-import { BoardColumn } from "./BoardColumn";
 import { Task } from "./Task";
 
 export interface Board {
-  columns: BoardColumn[];
+  title: string;
+  todo: Task[];
+  doing: Task[];
+  done: Task[];
 }
