@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Kanban Board Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Kanban Board](https://github.com/shivam-kumar-shah/kanban-board/assets/134827809/f462cfd1-011b-483a-9c05-7bfa6ab38eb0)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The Kanban Board Todo App is a web-based task management application that utilizes React, Redux Toolkit, RTK Query, and React Drag 'n Drop for an efficient and user-friendly experience. It leverages the power of the [one-for-all backend](https://github.com/shivam-kumar-shah/one-for-all) for seamless data management. This project showcases the integration of various modern technologies to create an effective task management solution.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Kanban Board Interface**: Organize tasks into customizable columns for easy visualization and management.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Drag 'n Drop Functionality**: Effortlessly move tasks between columns for quick updates.
 
-### `npm test`
+- **Redux Toolkit for State Management**: Utilize Redux Toolkit to efficiently manage application state.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **RTK Query for Data Fetching**: Leverage RTK Query for seamless data fetching and caching.
 
-### `npm run build`
+- **Tailwind CSS for Styling**: Utilize Tailwind CSS for responsive and visually appealing user interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Check out the live demo [here](https://github.com/shivam-kumar-shah/kanban-board).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To run the Kanban Board Todo App locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone the repository from [GitHub Repo](https://github.com/shivam-kumar-shah/kanban-board).
+2. Install the required dependencies using `npm install`.
+3. Start the application using `npm start`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Launch the application and start organizing tasks on the Kanban board.
+2. Drag and drop tasks between columns to update their status.
+3. Use the provided navigation to switch between different views and functionalities.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- React
+- Redux Toolkit
+- RTK Query
+- React Drag 'n Drop
+- Tailwind CSS
+- React Router DOM v6
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is hosted on GitHub Pages and can be accessed at [https://shivam-kumar-shah.github.io/kanban-board](https://shivam-kumar-shah.github.io/kanban-board).
+
+## Backend
+
+This application uses the one-for-all backend, hosted at [https://github.com/shivam-kumar-shah/one-for-all](https://github.com/shivam-kumar-shah/one-for-all).
+
+## Contributing
+
+Contributions are welcome! If you have any ideas, bug fixes, or improvements, please open an issue or submit a pull request.
+
+## Contact
+
+For any inquiries or feedback, feel free to contact us at [shivam-kumar-shah@outlook.com](mailto:shivam-kumar-shah@outlook.com).
+
+---
+
+*Efficient Task Management!* 📋🚀
